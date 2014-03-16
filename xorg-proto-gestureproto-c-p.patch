@@ -1,0 +1,12 @@
+--- xorg-x11-proto-gesture-0.1.0/gestureproto.pc.in.orig	2013-03-12 17:54:42.000000000 +0100
++++ xorg-x11-proto-gesture-0.1.0/gestureproto.pc.in	2014-03-16 13:24:57.983455925 +0100
+@@ -3,7 +3,7 @@
+ libdir=@libdir@
+ includedir=@includedir@
+  
+-Name: AppleWMProto
+-Description: AppleWM extension headers
++Name: GestureProto
++Description: Gesture extension headers
+ Version: @PACKAGE_VERSION@
+ Cflags: -I${includedir}
