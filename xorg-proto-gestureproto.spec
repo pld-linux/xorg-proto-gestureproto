@@ -1,12 +1,12 @@
 Summary:	Gesture extension headers
 Summary(pl.UTF-8):	Pliki nagłówkowe rozszerzenia Gesture
 Name:		xorg-proto-gestureproto
-Version:	0.1.0
+Version:	0.1.1
 Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://download.tizen.org/releases/2.2.1/latest/repos/tizen-main/source/xorg-x11-proto-gesture-%{version}-3.8.src.rpm
-# Source0-md5:	a80457413ff30e7892045ef89ea1be4d
+Source0:	http://download.tizen.org/releases/2.4/2.4-mobile/latest/repos/target-TM1/source/xorg-x11-proto-gesture-%{version}-1.1.src.rpm
+# Source0-md5:	2785baf642228d1081177bd9251bb0c7
 Patch0:		%{name}-c-p.patch
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
