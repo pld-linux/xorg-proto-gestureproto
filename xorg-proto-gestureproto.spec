@@ -37,7 +37,7 @@ Pliki nagłówkowe rozszerzenia Gesture.
 %setup -q -c -T -n xorg-x11-proto-gesture-%{version}
 rpm2cpio %{SOURCE0} | cpio -i xorg-x11-proto-gesture-%{version}.tar.gz
 tar xf xorg-x11-proto-gesture-%{version}.tar.gz -C ..
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__aclocal}
